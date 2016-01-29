@@ -1,0 +1,4 @@
+<StyleCopViolations>
+  <Violation Section="Root.ConsoleApplication3.Program.publicAndInternalWithLowerCase" LineNumber="19" Source="F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\Program.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="AccessibleFieldsMustBeginWithUpperCaseLetter" RuleId="SA1307">Public and internal fields must start with an upper-case letter: publicAndInternalWithLowerCase.</Violation>
+  <Violation Section="Root.ConsoleApplication3.Program.hi" LineNumber="23" Source="F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\Program.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="ElementMustBeginWithUpperCaseLetter" RuleId="SA1300">method names begin with an upper-case letter: hi.</Violation>
+</StyleCopViolations>

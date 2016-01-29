@@ -1,0 +1,5 @@
+F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+F:\vsworkspace\ConsoleApplication1\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

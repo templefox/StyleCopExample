@@ -33,7 +33,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.BatchFile>
-      <command>&quot;C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe&quot; ConsoleApplication1.sln</command>
+      <command>&quot;C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe&quot; ConsoleApplication1.sln /p:CodeScan=true</command>
     </hudson.tasks.BatchFile>
   </builders>
   <publishers>

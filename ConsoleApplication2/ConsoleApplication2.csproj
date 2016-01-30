@@ -5,6 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{295C9206-90D3-4262-8AF2-68AE91DE91B0}</ProjectGuid>
+	<CodeScan Condition=" '$(CodeScan)' == '' ">false</CodeScan>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConsoleApplication2</RootNamespace>
@@ -49,7 +50,7 @@
     <None Include="Settings.StyleCop" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\StyleCop\v4.7\StyleCop.Targets" />
+  <Import Condition=" '$(CodeScan)' == 'true' " Project="..\StyleCop\v4.7\StyleCop.Targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
